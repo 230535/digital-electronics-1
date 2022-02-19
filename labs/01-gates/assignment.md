@@ -1,4 +1,4 @@
-# Lab 1: A
+# Lab 1: Jan Bukovský
 
 ### De Morgan's laws
 
