@@ -1,1 +1,1 @@
-![Logic function](images/de1.PNG)
+![Logic function](de1.PNG)
