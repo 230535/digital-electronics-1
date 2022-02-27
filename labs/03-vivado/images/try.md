@@ -1,1 +1,1 @@
-![your figure](n4r.PNG)
+![your figure](n4r.png)
