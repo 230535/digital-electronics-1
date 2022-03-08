@@ -1,3 +1,5 @@
+![your figure](n4r.png)
+
 2. Complete the decoder truth table for **common anode** 7-segment display.
 
    | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
