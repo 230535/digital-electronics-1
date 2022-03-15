@@ -26,3 +26,6 @@
    | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | Output did not change |
    | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | invert (toggle) |
    | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | invert (toggle) |
+
+
+   ![your figure](images/rce.png)
