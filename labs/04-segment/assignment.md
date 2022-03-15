@@ -74,9 +74,6 @@ p_stimulus : process
         assert (s_seg = "0111000")
         report "Input combination 1111 FAILED" severity error;
 
-        -- WRITE OTHER TEST CASES HERE
-
-
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
@@ -93,7 +90,6 @@ p_stimulus : process
    ```vhdl
    --------------------------------------------------------------------
    -- Experiments on your own: LED(7:4) indicators
-
 
     -- Turn LED(4) on if input value is equal to 0, ie "0000"
      LED(4) <= `1` when (SW="0000") else `0`
