@@ -28,4 +28,4 @@
    | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | invert (toggle) |
 
 
-   ![your figure](images/rce.png)
+   ![your figure](rce.png)
