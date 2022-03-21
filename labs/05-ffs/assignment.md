@@ -6,9 +6,7 @@
 
 ```vhdl
 architecture Behavioral of t_ff_rst is
-    -- It must use this local signal instead of output ports
-    -- because "out" ports cannot be read within the architecture
-    signal s_q : std_logic;
+    signal q_n: std_logic;
 begin
     --------------------------------------------------------
     -- p_t_ff_rst:
@@ -20,16 +18,20 @@ begin
     --------------------------------------------------------
     p_t_ff_rst : process(clk)
     begin
-        if rising_edge(clk) then
+        if rising_edge(clk) then  -- Synchronous process
 
-        -- WRITE YOUR CODE HERE
-
+            -- USE HIGH-ACTIVE RESET HERE
+                if (rst ='1') then
+                    q     <= '0';
+                    q_bar <= '1';
+                    q_n     <= '0';
+                else
+                    q_n     <= ((t and (not q_n))or((not t) and q_n));
+                    q     <= ((t and (not q_n))or((not t) and q_n));
+                    q_bar <= not ((t and (not q_n))or((not t) and q_n));
+                end if;
         end if;
     end process p_t_ff_rst;
-
-    -- Output ports are permanently connected to local signal
-    q     <= s_q;
-    q_bar <= not s_q;
 end architecture Behavioral;
 ```
 
