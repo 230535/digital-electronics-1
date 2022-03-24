@@ -1,4 +1,4 @@
-# Lab 7: YOUR_FIRSTNAME LASTNAME
+# Lab 7: Jan Bukovský
 
 ### Display driver
 
