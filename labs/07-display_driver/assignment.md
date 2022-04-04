@@ -52,6 +52,7 @@
    ![your figure](images/n4r - Copy.png)
    
    ![your figure](images/n4r - Copy - Copy - Copy.png)
+    ![your figure](images/n4r - Copy.png)
 
 ### Eight-digit driver
 
